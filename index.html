@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Nakama! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <section id="page-warning" class="active">
+        <div class="content-box">
+            <h1 class="glitch">⚠️ WARNING ⚠️</h1>
+            <p>You are about to enter a high-bounty zone. Dangerous levels of Broskiiii ENERGY detected.</p>
+            <button onclick="nextPage('page-roast')">Enter the Grand Line</button>
+        </div>
+    </section>
+
+    <section id="page-roast" class="hidden">
+        <h2 class="section-title">The Navy's Most Wanted</h2>
+        <div class="wanted-poster">
+            <div class="poster-header">WANTED</div>
+            <div class="poster-sub">DEAD OR ALIVE</div>
+            <div class="poster-image">
+                <img src="IMAGES/p2.png" alt="The Criminal">
+            </div>
+            <div class="poster-name">BROSKI. JuJu"( – ⌓ – ) </div>
+            <div class="poster-bounty">฿ 350,000,000 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃</div>
+            <div class="crimes">
+                <p>CRIMES: Stealing Mel from Me, Being Smooth & Caring, Top Tier Broskiiii.</p>
+            </div>
+        </div>
+        <button onclick="nextPage('page-surprise')">Claim Bounty</button>
+    </section>
+
+    <section id="page-surprise" class="hidden">
+        <div class="content-box">
+            <h2>One Last Thing...</h2>
+            <p>Before you go, there's a special treasure waiting.</p>
+            <button id="final-btn" onclick="triggerFakeout()">DO NOT CLICK</button>
+        </div>
+    </section>
+
+    <section id="page-video" class="hidden">
+        <div class="video-container">
+            <h2 class="section-title">Happy Birthday, Broskiiii! 👑</h2>
+            <video id="bd-video" controls>
+                <source src="VID/bd.mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="wholesome-text">You're the realest nakama I know. Thanks for being on this crew.  My apologies for not very good video ( I tried my best but it still sucks).·°՞(っ-ᯅ-ς)՞°·. </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
